@@ -75,3 +75,15 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+//apresente titulo, plot, generos e lingua. Genero e lingua devem ser apresentados em arrays no console.
+
+obj.forEach( filme => {
+    console.log(`Título: ${filme.Title}`);
+    console.log(`Sinopse: ${filme.Plot}`);
+    console.log("Gênero: ", filme.Genre.split(","));
+    console.log("Língua: ", filme.Language.split(","),"\n");
+    
+})
+
+

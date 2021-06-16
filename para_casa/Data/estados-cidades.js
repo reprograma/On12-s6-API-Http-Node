@@ -5735,3 +5735,27 @@ const data = [{
     ]
   }
 ]
+
+//apresente o nome do Estado, a sigla e todas as cidadades, sem arrays aparentes no console
+
+const brasil = data[0]
+const estados = brasil.estados
+
+// for (let i = 0; i < brasil.estados.length; i++){
+//   let estado = brasil.estados[i]
+//   console.log(`Estado: ${estado.nome}, Sigla: ${estado.sigla}, Cidades:`);
+//   console.log(estado.cidades[0]);
+
+//   for ( let j = 0; j < estado.cidades.length; j++){
+//       console.log(estado.cidades[j]);
+//   }
+//   console.log("");
+// }
+
+estados.forEach(estado => {
+  console.log(`Estado: ${estado.nome}, Sigla: ${estado.sigla}, Cidades:`);
+  estado.cidades.forEach(cidade => {
+    console.log(cidade);
+  })
+  console.log("")
+})
