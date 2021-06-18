@@ -4,12 +4,12 @@ HTTP e NodeJS - Respostas do exercício- semana06
 ## Para o lar
 Abra o PullRequest Respondendo as seguintes questões:
 
-1) Qual a relação entre os métodos HTTP e o CRUD?
+**1)** Qual a relação entre os métodos HTTP e o CRUD?
 
 Os termos são semelhantes, porém tem usos distintos, o HTTP interage com um sistema complexo, 
 enquanto o CRUD manipula dados básicos em um repositório.
 
-2) Comente, com exemplos, a diferença entre o PUT e o PATCH.
+**2)** Comente, com exemplos, a diferença entre o PUT e o PATCH.
 
 Suponha que tenhamos um recurso que contém o nome e o sobrenome de uma pessoa.
 Se quisermos mudar o primeiro nome, enviaremos uma solicitação de atualização
@@ -20,7 +20,7 @@ Em outras palavras, é obrigatório enviar todos os valores novamente, a carga �
 Quando enviamos uma solicitação PATCH, no entanto, enviamos apenas os dados que queremos atualizar. 
 Em outras palavras, enviamos apenas o primeiro nome para atualização, sem a necessidade de enviar o sobrenome.
 
-3) Assim como na aula, apresente os dados dos JSONs no console 
+**3)** Assim como na aula, apresente os dados dos JSONs no console 
 
     - No colors-rgb.js apresente o nome da cor e o codigo RGB como no exemplo: "gainsboro - rgb(220, 220, 220, 1)"
 
@@ -58,14 +58,14 @@ Em outras palavras, enviamos apenas o primeiro nome para atualização, sem a ne
     });
     ```
 
-4) Defina o conceito de idempotência e como uma API pode ser idempotente:
+**4)** Defina o conceito de idempotência e como uma API pode ser idempotente:
 
 Um método HTTP idempotente é um método HTTP que pode ser chamado muitas vezes sem resultados diferentes. 
 Não importa se o método é chamado apenas uma vez ou dez vezes. O resultado deve ser o mesmo. 
 Essencialmente, significa que o resultado de uma solicitação executada com sucesso é 
 independente do número de vezes que ela é executada. 
 
-5) Cite alguns diferentes padrões de projetos de software:
+**5)** Cite alguns diferentes padrões de projetos de software:
 
 Padrões de criação: FactoryMethod, Singleton, Abstract Factory, Builder e Prototype.
 Padrões estruturais: Adapter, Decorator, Facade, Proxy e Composite.
