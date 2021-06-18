@@ -5735,3 +5735,17 @@ const data = [{
     ]
   }
 ]
+
+//No estados-cidade.js apresente o nome do Estado, a sigla e todas as cidadades, sem arrays aparentes no console
+
+let todosEstados = data[0]
+let estados = todosEstados.estados
+
+estados.forEach(estado => {
+
+  console.log(`ESTADO: ${estado.nome}/${estado.sigla}`)
+
+estado.cidades.forEach(cidade =>{
+    console.log(`Cidade - ${cidade}`)
+  }) 
+})
