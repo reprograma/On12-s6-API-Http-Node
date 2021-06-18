@@ -20,7 +20,7 @@ Em outras palavras, é obrigatório enviar todos os valores novamente, a carga �
 Quando enviamos uma solicitação PATCH, no entanto, enviamos apenas os dados que queremos atualizar. 
 Em outras palavras, enviamos apenas o primeiro nome para atualização, sem a necessidade de enviar o sobrenome.
 
-**3)** Assim como na aula, apresente os dados dos JSONs no console 
+3) Assim como na aula, apresente os dados dos JSONs no console 
 
     - No colors-rgb.js apresente o nome da cor e o codigo RGB como no exemplo: "gainsboro - rgb(220, 220, 220, 1)"
 
