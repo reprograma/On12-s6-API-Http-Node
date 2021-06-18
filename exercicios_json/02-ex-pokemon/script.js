@@ -30,3 +30,15 @@ const data = [{
 }]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+for (let i =0; i < data.length; i++){
+    let poke= data[i]
+    console.log('Nome',poke.name)
+    console.log('Descrição',poke.description)
+
+    let types = poke.types
+    for (let i = 0; i < types.length; i++){
+        let type =types[i]
+        console.log('TIPO', type)
+    }
+  }

@@ -24,3 +24,9 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+for (let i =0; i < obj.length; i++){
+  let movie = obj[i]
+  console.table('Título',movie.title)
+  console.table('Descrição',movie.description)
+}
