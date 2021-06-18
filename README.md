@@ -26,6 +26,7 @@ Em outras palavras, enviamos apenas o primeiro nome para atualização, sem a ne
 
     ```
     let cores = obj[0]
+
     for (var prop in cores) {
         console.log("Nomes da cor: " + prop + " - rgb " + "(" + cores[prop] + ")");
       }
@@ -38,12 +39,9 @@ Em outras palavras, enviamos apenas o primeiro nome para atualização, sem a ne
     let estados = brasil.estados
 
     estados.forEach(estado => {
+      console.log("Nome do estado: " + estado.nome + " Sigla: " +  estado.sigla + " Cidades: " )
   
-    console.log("Nome do estado: " + estado.nome + " Sigla: " +  estado.sigla + " Cidades: " )
-  
-    estado.cidades.forEach(cidade => {
-    console.log(cidade)
-    })
+    estado.cidades.forEach(cidade => {console.log(cidade)})
     console.log(" ")
     })
     ```
@@ -54,11 +52,9 @@ Em outras palavras, enviamos apenas o primeiro nome para atualização, sem a ne
     let filmes = obj
 
     filmes.forEach(filme => {
-
-    console.log(" Titulo: " + filme.Title + " Plot: " + filme.Plot);
+    console.log(" Titulo: " + filme.Title + " Plot: " + filme.Plot;
     console.log(" Genero: ", filme.Genre.split(","));
     console.log(" Lingua: ", filme.Language.split(","),"\n");
-
     });
     ```
 
