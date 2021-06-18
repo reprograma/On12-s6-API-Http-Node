@@ -30,3 +30,17 @@ const data = [{
 }]
 
 // FAÇA O EXERCÍCIO ABAIXO
+// variavel que armazena item do array objeto 
+for(let i= 0; i < data.length; i++) {
+    let pokemon = data[i]
+    console.log('TITULO:', pokemon.name)
+    console.log('Descricao:', pokemon.description)
+
+    let types = pokemon.types
+     for(let i =0; i <types.length; i++){
+      let type = types[i]
+      console.log('Tipo:', type)
+
+    }
+    
+}
