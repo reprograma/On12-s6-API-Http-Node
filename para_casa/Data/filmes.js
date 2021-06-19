@@ -75,3 +75,13 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+//- No filmes.js apresente titulo, plot, generos e lingua. Genero e lingua devem ser apresentados em arrays no console.
+
+for(let i = 0; i < obj.length; i++){
+    let movie = obj[i]
+    console.log(`Título:  ${ movie.Title}`)
+    console.log(`Plot:  ${movie.Plot}`)
+    console.log("Gênero:  ", movie.Genre.split(","))
+    console.log("Língua: ", movie.Language.split(","))
+}

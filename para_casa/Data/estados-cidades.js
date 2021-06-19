@@ -5735,3 +5735,19 @@ const data = [{
     ]
   }
 ]
+
+//- No estados-cidade.js apresente o nome do Estado, a sigla e todas as cidadades, sem arrays aparentes no console
+
+let brasil = data [0]
+let estados = brasil.estados
+
+estados.forEach(estado => {
+  console.log("Nome do Estado: " + estado.nome + " Sigla: " + estado.sigla + " Cidades: ")
+
+estado.cidades.forEach(cidade => {
+    console.log(cidade)
+
+})
+console.log("")
+})
+
