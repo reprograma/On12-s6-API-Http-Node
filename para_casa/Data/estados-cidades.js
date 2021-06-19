@@ -5735,3 +5735,39 @@ const data = [{
     ]
   }
 ]
+
+
+var estados = data[0].estados;
+
+for(let contador = 0; contador < estados.length; contador++){
+  const estado = estados[contador]
+  console.table("Nome do estado: " + estado.nome)
+  console.log("Sigla: " + estado.sigla)
+  console.log("Cidades de " +estado.nome) 
+
+  for (let index = 0; index < estado.cidades.length; index++){
+
+    const cidade = estado.cidades[index]
+    console.log(cidade)
+  }
+
+  console.log("Fim da cidade de " +estado.nome)
+}
+
+
+
+
+
+  
+
+// var estados = data[0].estados;
+
+
+// for(let i = 0; i < estados.length; i++){
+
+//   const estado = estados[i]
+//   console.table(estado.sigla)
+// }
+
+
+
