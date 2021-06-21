@@ -5735,3 +5735,11 @@ const data = [{
     ]
   }
 ]
+let pais = data[0];
+let stds = pais.estados;
+stds.forEach(stds => {
+  console.log(`${stds.nome} - ${stds.sigla} :`);
+  stds.cidades.forEach(cidade => {
+console.log(cidade);
+  })
+})

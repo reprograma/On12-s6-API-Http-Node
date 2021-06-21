@@ -30,3 +30,16 @@ const data = [{
 }]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+for (let index = 0; index < data.length; index++) {
+    let pk = data[index];
+    console.log(`Name`, pk.name);
+    console.log(`Descripion`, pk.description);
+    
+    let types = pk.types
+    for (let index = 0; index < types.length; index++) {
+      let type = types[index];
+      console.log(`type`, type);
+    }
+  
+  }
