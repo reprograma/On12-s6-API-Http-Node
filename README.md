@@ -54,11 +54,11 @@ Tanto o Put, quanto o Patch promovem atualização no conteúdo. Enquanto o Put 
 
 _**3)** Assim como na aula, apresente os dados dos JSONs no console._
     - No colors-rgb.js apresente o nome da cor e o codigo RGB como no exemplo: "gainsboro - rgb(220, 220, 220, 1)"
-    
+
     let cores = obj[0]
-    
+
     for (var prop in cores) {
-        
+
         console.log("Nomes da cor: " + prop + " - rgb " + "(" + cores[prop] + ")");
       }
     
@@ -81,7 +81,7 @@ _**3)** Assim como na aula, apresente os dados dos JSONs no console._
         console.log("Língua: ", filme.Language.split(","),"\n");
         
     })
-    
+
 
 
 
@@ -139,3 +139,18 @@ componentes de software, suas propriedades externas, e seus relacionamentos com 
 
 
 
+# O básico sobre objetos JavaScript -  https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/Basics
+
+# Trabalhando com objetos - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects
+
+
+
+
+
+# Link aula 12-06-2021(6°semana):https://www.youtube.com/watch?v=xR21uOis-Gg   
+
+# 2° parte da aula:<https://youtu.be/Be6s0SXsI80>
+
+
+
+# Link aula 16-06-2021(6°semana):https://www.youtube.com/watch?v=WvH3Y6QEW8Q 

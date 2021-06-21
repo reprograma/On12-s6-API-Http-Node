@@ -78,12 +78,41 @@ const obj = [
 
 //apresente titulo, plot, generos e lingua. Genero e lingua devem ser apresentados em arrays no console.
 
-obj.forEach( filme => {
-    console.log(`Título: ${filme.Title}`);
-    console.log(`Sinopse: ${filme.Plot}`);
-    console.log("Gênero: ", filme.Genre.split(","));
-    console.log("Língua: ", filme.Language.split(","),"\n");
+let Genre = []
+let Language = []
+
+
+
+for (let i=0; i< obj.length; i++){
+    let filme = obj[i]
+
+    const {Title, Plot, Genre, Language} = obj[i]
     
-})
+    console.log("=====================");
+    console.log(Title);
+    console.log(Plot);
+    console.log(Genre.split(","));
+    console.log(Language);
+    console.log("=====================");
+
+    console.log('TÍTULO:', filme.Title)
+    console.log('PLOT:', filme.Plot)
+    
+
+    let genero = [filme.Genre]
+    let language = [filme.Language]
+    console.log(genero)
+    console.log(language)
+
+}
+
+
+// obj.forEach( filme => {
+//     console.log(`Título: ${filme.Title}`);
+//     console.log(`Sinopse: ${filme.Plot}`);
+//     console.log("Gênero: ", filme.Genre.split(","));
+//     console.log("Língua: ", filme.Language.split(","),"\n");
+    
+// })
 
 
