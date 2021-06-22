@@ -83,6 +83,7 @@ __5_) Cite alguns diferentes padrões de projetos de software.
 
 
 **Referências**
+
 Métodos de requisição HTTP [Fonte: Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods)
 
 Put e Patch [Fonte: Stackoverflow](https://pt.stackoverflow.com/questions/217894/qual-%C3%A9-a-diferen%C3%A7a-entre-o-m%C3%A9todo-put-e-o-patch)
