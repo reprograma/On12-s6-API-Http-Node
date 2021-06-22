@@ -75,7 +75,7 @@ Como por exemplo: 5869 * 0 = 0 / 5869 * 1 = 5869.
 
 Através de alguns métodos de requisição como get, head, options que não alteram o estado do servidor(executando uma operação de leitura), pois eles retornam a mesma resposta e o estado da aplicação, por isso uma API pode ser idempotente.
 
-__5_) Cite alguns diferentes padrões de projetos de software.
+_5_) Cite alguns diferentes padrões de projetos de software.
 
 * Layers (Camadas);
 * Decorador;
