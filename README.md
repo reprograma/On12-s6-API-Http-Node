@@ -8,11 +8,14 @@ Abra o PullRequest Respondendo as seguintes questões:
 _1_) Qual a relação entre os métodos HTTP e o CRUD?
 
 O método HTTP define um conjunto de métodos de requisição responsáveis por indicar a ação a ser executada para um dado recurso. E são eles:
-
 **GET** : solicita a representação de um recurso específico. Requisições utilizando o método GET devem retornar apenas dados.
+
 **HEAD**: solicita uma resposta de forma idêntica ao método GET, porém sem conter o corpo da resposta.
+
 **POST**: utilizado para submeter uma entidade a um recurso específico, frequentemente causando uma mudança no estado do recurso ou efeitos colaterais no servidor.
+
 **PUT**: substitui todas as atuais representações do recurso de destino pela carga de dados da requisição.
+
 **DELETE**: remove um recurso específico.
 **CONNECT**: estabelece um túnel para o servidor identificado pelo recurso de destino.
 **OPTIONS**: é usado para descrever as opções de comunicação com o recurso de destino.
