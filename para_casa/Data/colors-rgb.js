@@ -149,3 +149,8 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+let cor = obj[0]
+for (let prop in cor) {
+    console.log(`${prop} - rgb (${cor[prop]})`)
+}
