@@ -5735,3 +5735,20 @@ const data = [{
     ]
   }
 ]
+
+const estado = data[0].estados
+for (let index in estado){ 
+    let objetoEstado = estado[index]
+    let sigla = objetoEstado.sigla
+    let nome = objetoEstado.nome
+    let cidades = objetoEstado.cidades
+    console.log('----------------------------------')
+    console.log(`${nome} - ${sigla}`)
+    console.log('(Lista dos Municípios)');
+
+
+    for (let index = 0; index < cidades.length; index++) {
+      const nomesCidades = cidades[index];
+      console.log(`${index + 1}. ${nomesCidades}`);
+    }
+}
