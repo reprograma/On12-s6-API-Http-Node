@@ -149,3 +149,7 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+for ( let names in obj[0]) {
+    console.log(`${names} -rgb (${obj[0][names]})`)
+}

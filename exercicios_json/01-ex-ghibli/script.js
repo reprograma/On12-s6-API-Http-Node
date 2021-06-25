@@ -24,3 +24,13 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+for(let i=0; i < obj.length; i++) { //código de loop p passar pelo array até q eel acabe
+  let movie = obj[i] // variavel q armazena um item array"obj"
+  console.log("Título", movie.title) // imprimi no console o título do filme
+  console.log("Descrição", movie.description) // imprimi a descrição
+
+
+}
+
+
