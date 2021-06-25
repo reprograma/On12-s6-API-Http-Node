@@ -5735,3 +5735,19 @@ const data = [{
     ]
   }
 ]
+
+
+const estadosArray = data[0].estados
+for(let index in estadosArray) {
+  let estadosObjeto = estadosArray[index]
+  let mostrarSigla = estadosObjeto.sigla
+  let somenteNome = estadosObjeto.nome
+  let mostrarCidade = estadosObjeto.cidades
+  console.log(`${somenteNome} - ${mostrarSigla}`)
+  console.log(`---------------------------------`)
+  console.log(`Todos os municípios:`)
+  for (let index = 0; index < mostrarCidade.length; index++) {
+    const somenteNomesCidades = mostrarCidade[index]
+    console.log(`${index + 1}. ${somenteNomesCidades}`)
+  }
+}
