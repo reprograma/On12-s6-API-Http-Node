@@ -1,8 +1,8 @@
-# On11-TodasEmTech-s6-Introducao-Node
-Turma Online 11 - Todas em Tech | Back-end | 2021 | Introdução à API:
+# On12-TodasEmTech-s6-Introducao-Node
+Turma Online 12 | Back-end | 2021 | Introdução à API:
 HTTP e NodeJS
 
-## Para o lar
+## Para casa
 Abra o PullRequest Respondendo as seguintes questões:
 
 1) Qual a relação entre os métodos HTTP e o CRUD?
