@@ -1,0 +1,16 @@
+{
+  "name": "atividade06",
+  "version": "1.0.0",
+  "description": "Turma Online 11 - Todas em Tech | Back-end | 2021 | Introdução à API:\r HTTP e NodeJS",
+  "main": "resposta.js",
+  "scripts": {
+    "start": "nodemon resposta.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "readline-sync": "^1.4.10"
+  }
+}

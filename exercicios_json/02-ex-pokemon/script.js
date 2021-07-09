@@ -30,3 +30,16 @@ const data = [{
 }]
 
 // FAÇA O EXERCÍCIO ABAIXO
+
+for (let i = 0; i < data.length; i++){
+    let  pokemon = data[i]
+    console.log('TITULO', pokemon.name)
+    console.log('Descricao', pokemon.description);
+  }
+
+  let types = pokemon.types
+for ( let i = 0; i < types.length; i++){
+    let type = types[1]  
+    console.log('Tipo', type);
+  }
+
