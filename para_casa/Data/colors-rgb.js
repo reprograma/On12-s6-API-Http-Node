@@ -149,3 +149,8 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+let color = obj[0]
+for(let prop in color){
+    console.log(`${prop} -rgb (${color[prop]})`)
+}
