@@ -25,9 +25,8 @@ const obj = [
 
 // FAÇA O EXERCÍCIO ABAIXO
 
-for (let i = 0; i < obj.length; i++) { // código de loop para passar pelo array até que ele acabe
-  let movie = obj[i] // variável que armazena um item do array "obj"
-
-  console.log('TÍTULO', movie.title) // imprime no console o título do filme
-  console.log('DESCRIÇÃO', movie.description) // imprime no console a descrição do filme
+for (let i = 0; i < obj.length; i++){
+  let movie = obj[i]
+  console.log('TITULO', movie.title)
+  console.log('DESCRIÇÃO', movie.description)
 }
